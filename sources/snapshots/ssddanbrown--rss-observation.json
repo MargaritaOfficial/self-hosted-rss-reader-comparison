@@ -1,0 +1,38 @@
+{
+  "repository": "ssddanbrown/rss",
+  "checked_at": "2026-11-21T21:15:37.697488+08:00",
+  "revision": "b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/ssddanbrown/rss.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nb6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+      "final_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+      "path": "sources/snapshots/ssddanbrown--rss-readme.txt",
+      "sha256": "3283d5d1f8c35a0351cdd48fcf2a13ee10673e46b437b4c5a80e95280386b91a",
+      "http_status": 200,
+      "line_count": 277,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/LICENSE",
+      "path": "sources/snapshots/ssddanbrown--rss-license.txt",
+      "sha256": "249ba57d5383f89e9ecc5114ee7442d8e73e77b3449a8a11cbfb248a00acb934",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

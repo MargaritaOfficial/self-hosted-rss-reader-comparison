@@ -1,0 +1,38 @@
+{
+  "repository": "samuelclay/NewsBlur",
+  "checked_at": "2026-11-21T21:15:29.683104+08:00",
+  "revision": "92b56e896c4ea6046377073204ad2894db9d0912",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/samuelclay/NewsBlur.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n92b56e896c4ea6046377073204ad2894db9d0912\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+      "final_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+      "path": "sources/snapshots/samuelclay--newsblur-readme.txt",
+      "sha256": "9a9241dedf8ff0f9f376ce4ac2afc7a1ee049ee14a19db2e73139248ac519370",
+      "http_status": 200,
+      "line_count": 260,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/LICENSE.md",
+      "path": "sources/snapshots/samuelclay--newsblur-license.txt",
+      "sha256": "60de604a298ac2ac8a32c9e973208fc23ce7c2376dd5251eaf5eae5dae9241c2",
+      "http_status": 200,
+      "line_count": 22,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "0x2E/fusion",
+  "checked_at": "2026-11-21T21:15:35.841962+08:00",
+  "revision": "c31ade09b481fa877633899e8cf5d4c86a72c4f9",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/0x2E/fusion.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nc31ade09b481fa877633899e8cf5d4c86a72c4f9\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+      "final_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+      "path": "sources/snapshots/0x2e--fusion-readme.txt",
+      "sha256": "6adbb0e5a13fc6d108bec6e8b9e5616623fca08bbe67be3892be06381feb9b5d",
+      "http_status": 200,
+      "line_count": 143,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/LICENSE",
+      "path": "sources/snapshots/0x2e--fusion-license.txt",
+      "sha256": "717c5420ecfc9a254703fe9cdf665797ca90584e2e002cbfdbe00a5781162c78",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,1178 @@
+{
+  "repository": "self-hosted-rss-reader-comparison",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Miniflux",
+      "repository": "miniflux/v2",
+      "url": "https://github.com/miniflux/v2",
+      "clone_url": "https://github.com/miniflux/v2.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:24.540504+08:00",
+      "version_or_commit": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+          "final_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+          "path": "sources/snapshots/miniflux--v2-readme.txt",
+          "sha256": "2a18e492d96193f6bb1122bd493944e07987920a06005a48651c304e310a4a48",
+          "http_status": 200,
+          "line_count": 148,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/LICENSE",
+          "path": "sources/snapshots/miniflux--v2-license.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "http_status": 200,
+          "line_count": 177,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/miniflux/v2.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\neea1ec706fcd40687032804d197bb67cb0d96ef4\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "miniflux--v2-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Miniflux is a minimalist and opinionated feed reader. It's simple, fast, lightweight and super easy to install.",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+          "version_or_commit": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+          "checked_at": "2026-11-21T21:15:24.540504+08:00",
+          "snapshot_path": "sources/snapshots/miniflux--v2-readme.txt",
+          "line_start": 4,
+          "line_end": 5,
+          "upstream_excerpt": "Miniflux is a minimalist and opinionated feed reader.\nIt's simple, fast, lightweight and super easy to install.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "miniflux--v2-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Updates feeds in the background using an internal scheduler or a traditional cron job.",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+          "version_or_commit": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+          "checked_at": "2026-11-21T21:15:24.540504+08:00",
+          "snapshot_path": "sources/snapshots/miniflux--v2-readme.txt",
+          "line_start": 101,
+          "line_end": 101,
+          "upstream_excerpt": "- Updates feeds in the background using an internal scheduler or a traditional cron job.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "miniflux--v2-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Compatibility with existing mobile applications using the Fever or Google Reader API.",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+          "version_or_commit": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+          "checked_at": "2026-11-21T21:15:24.540504+08:00",
+          "snapshot_path": "sources/snapshots/miniflux--v2-readme.txt",
+          "line_start": 78,
+          "line_end": 78,
+          "upstream_excerpt": "- Compatibility with existing mobile applications using the Fever or Google Reader API.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "miniflux--v2-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/LICENSE",
+          "version_or_commit": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+          "checked_at": "2026-11-21T21:15:24.540504+08:00",
+          "snapshot_path": "sources/snapshots/miniflux--v2-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/miniflux--v2-observation.json"
+    },
+    {
+      "name": "FreshRSS",
+      "repository": "FreshRSS/FreshRSS",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "clone_url": "https://github.com/FreshRSS/FreshRSS.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:24.680572+08:00",
+      "version_or_commit": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+      "branch_at_observation": "edge",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+          "final_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+          "path": "sources/snapshots/freshrss--freshrss-readme.txt",
+          "sha256": "31fe6e06511f7ed6840950427503bdbecc3eee680252ba9d4d4cfd252b2e7f77",
+          "http_status": 200,
+          "line_count": 226,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/LICENSE.txt",
+          "path": "sources/snapshots/freshrss--freshrss-license.txt",
+          "sha256": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
+          "http_status": 200,
+          "line_count": 662,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/FreshRSS/FreshRSS.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/edge\tHEAD\n71cda6bfe2301e0da789dc4141415b1090cfc0bd\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "freshrss--freshrss-axis-1",
+          "field": "decision_axis_1",
+          "statement": "It is a multi-user application with an anonymous reading mode. It supports custom tags. There is an API for (mobile) clients, and a Command-Line Interface.",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+          "version_or_commit": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+          "checked_at": "2026-11-21T21:15:24.680572+08:00",
+          "snapshot_path": "sources/snapshots/freshrss--freshrss-readme.txt",
+          "line_start": 12,
+          "line_end": 13,
+          "upstream_excerpt": "It is a multi-user application with an anonymous reading mode. It supports custom tags.\nThere is an API for (mobile) clients, and a [Command-Line Interface](cli/README.md).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "freshrss--freshrss-axis-2",
+          "field": "decision_axis_2",
+          "statement": "PostgreSQL 10+ or SQLite or MariaDB 10.6+ or MySQL 8.0+",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+          "version_or_commit": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+          "checked_at": "2026-11-21T21:15:24.680572+08:00",
+          "snapshot_path": "sources/snapshots/freshrss--freshrss-readme.txt",
+          "line_start": 70,
+          "line_end": 70,
+          "upstream_excerpt": "* PostgreSQL 10+ or SQLite or MariaDB 10.6+ or MySQL 8.0+",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "freshrss--freshrss-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Google Reader API (best), and Fever API (limited features, less efficient, less safe).",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+          "version_or_commit": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+          "checked_at": "2026-11-21T21:15:24.680572+08:00",
+          "snapshot_path": "sources/snapshots/freshrss--freshrss-readme.txt",
+          "line_start": 172,
+          "line_end": 173,
+          "upstream_excerpt": "[Google Reader API](https://freshrss.github.io/FreshRSS/en/developers/06_GoogleReader_API.html) (best),\nand [Fever API](https://freshrss.github.io/FreshRSS/en/developers/06_Fever_API.html) (limited features, less efficient, less safe).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "freshrss--freshrss-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/LICENSE.txt",
+          "version_or_commit": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+          "checked_at": "2026-11-21T21:15:24.680572+08:00",
+          "snapshot_path": "sources/snapshots/freshrss--freshrss-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/freshrss--freshrss-observation.json"
+    },
+    {
+      "name": "Tiny Tiny RSS",
+      "repository": "tt-rss/tt-rss",
+      "url": "https://github.com/tt-rss/tt-rss",
+      "clone_url": "https://github.com/tt-rss/tt-rss.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:24.787630+08:00",
+      "version_or_commit": "bdd57ea86ff6beab69be2fc883d202181a6bd18a",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+          "final_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+          "path": "sources/snapshots/tt-rss--tt-rss-readme.txt",
+          "sha256": "d4d139eb024d29cbb663290c8ba2cdf4e901767bcde62a36566515833cac5028",
+          "http_status": 200,
+          "line_count": 56,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/COPYING",
+          "final_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/COPYING",
+          "path": "sources/snapshots/tt-rss--tt-rss-license.txt",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/tt-rss/tt-rss.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nbdd57ea86ff6beab69be2fc883d202181a6bd18a\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "tt-rss--tt-rss-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Tiny Tiny RSS (tt-rss) ======================",
+          "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+          "version_or_commit": "bdd57ea86ff6beab69be2fc883d202181a6bd18a",
+          "checked_at": "2026-11-21T21:15:24.787630+08:00",
+          "snapshot_path": "sources/snapshots/tt-rss--tt-rss-readme.txt",
+          "line_start": 1,
+          "line_end": 2,
+          "upstream_excerpt": "Tiny Tiny RSS (tt-rss)\n======================",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "tt-rss--tt-rss-axis-2",
+          "field": "decision_axis_2",
+          "statement": "What's on the main branch (or latest and the most recent sha- tag for the Docker images) is intended to be stable",
+          "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+          "version_or_commit": "bdd57ea86ff6beab69be2fc883d202181a6bd18a",
+          "checked_at": "2026-11-21T21:15:24.787630+08:00",
+          "snapshot_path": "sources/snapshots/tt-rss--tt-rss-readme.txt",
+          "line_start": 19,
+          "line_end": 19,
+          "upstream_excerpt": "    * What's on the `main` branch (or `latest` and the most recent `sha-*` tag for the Docker images) is intended to be stable",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "tt-rss--tt-rss-license",
+          "field": "license_model",
+          "statement": "GPL-3.0-or-later",
+          "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/COPYING",
+          "version_or_commit": "bdd57ea86ff6beab69be2fc883d202181a6bd18a",
+          "checked_at": "2026-11-21T21:15:24.787630+08:00",
+          "snapshot_path": "sources/snapshots/tt-rss--tt-rss-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/tt-rss--tt-rss-observation.json"
+    },
+    {
+      "name": "CommaFeed",
+      "repository": "Athou/commafeed",
+      "url": "https://github.com/Athou/commafeed",
+      "clone_url": "https://github.com/Athou/commafeed.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:28.219640+08:00",
+      "version_or_commit": "4a8ffe250147fbcdaded433bdf3e54181ab71c25",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+          "final_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+          "path": "sources/snapshots/athou--commafeed-readme.txt",
+          "sha256": "a347114a8eaf760f6963f68e09700cdd58e932fe397d96a70835ec0f9f4e40ec",
+          "http_status": 200,
+          "line_count": 215,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/LICENSE",
+          "path": "sources/snapshots/athou--commafeed-license.txt",
+          "sha256": "2429b2d3f506acc02e36d6d2bfc6778a1652a5d54dae368fddff933fc8e8aeae",
+          "http_status": 200,
+          "line_count": 31,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Athou/commafeed.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n4a8ffe250147fbcdaded433bdf3e54181ab71c25\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "athou--commafeed-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeScript.",
+          "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+          "version_or_commit": "4a8ffe250147fbcdaded433bdf3e54181ab71c25",
+          "checked_at": "2026-11-21T21:15:28.219640+08:00",
+          "snapshot_path": "sources/snapshots/athou--commafeed-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Google Reader inspired self-hosted RSS reader, based on Quarkus and React/TypeScript.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "athou--commafeed-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Can automatically mark articles as read based on user-defined rules",
+          "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+          "version_or_commit": "4a8ffe250147fbcdaded433bdf3e54181ab71c25",
+          "checked_at": "2026-11-21T21:15:28.219640+08:00",
+          "snapshot_path": "sources/snapshots/athou--commafeed-readme.txt",
+          "line_start": 19,
+          "line_end": 19,
+          "upstream_excerpt": "- Can automatically mark articles as read based on user-defined rules",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "athou--commafeed-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/LICENSE",
+          "version_or_commit": "4a8ffe250147fbcdaded433bdf3e54181ab71c25",
+          "checked_at": "2026-11-21T21:15:28.219640+08:00",
+          "snapshot_path": "sources/snapshots/athou--commafeed-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Apache License, Version 2.0 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n1. Definitions.\n\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\n\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\n\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.\n\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\n\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\n\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\n\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/athou--commafeed-observation.json"
+    },
+    {
+      "name": "NewsBlur",
+      "repository": "samuelclay/NewsBlur",
+      "url": "https://github.com/samuelclay/NewsBlur",
+      "clone_url": "https://github.com/samuelclay/NewsBlur.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:29.683104+08:00",
+      "version_or_commit": "92b56e896c4ea6046377073204ad2894db9d0912",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+          "final_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+          "path": "sources/snapshots/samuelclay--newsblur-readme.txt",
+          "sha256": "9a9241dedf8ff0f9f376ce4ac2afc7a1ee049ee14a19db2e73139248ac519370",
+          "http_status": 200,
+          "line_count": 260,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/LICENSE.md",
+          "path": "sources/snapshots/samuelclay--newsblur-license.txt",
+          "sha256": "60de604a298ac2ac8a32c9e973208fc23ce7c2376dd5251eaf5eae5dae9241c2",
+          "http_status": 200,
+          "line_count": 22,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/samuelclay/NewsBlur.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n92b56e896c4ea6046377073204ad2894db9d0912\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "samuelclay--newsblur-axis-1",
+          "field": "decision_axis_1",
+          "statement": "A personal news reader bringing people together to talk about the world.",
+          "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+          "version_or_commit": "92b56e896c4ea6046377073204ad2894db9d0912",
+          "checked_at": "2026-11-21T21:15:29.683104+08:00",
+          "snapshot_path": "sources/snapshots/samuelclay--newsblur-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "**A personal news reader bringing people together to talk about the world.**",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "samuelclay--newsblur-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- PostgreSQL for relational data (feeds, subscriptions, accounts)",
+          "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/README.md",
+          "version_or_commit": "92b56e896c4ea6046377073204ad2894db9d0912",
+          "checked_at": "2026-11-21T21:15:29.683104+08:00",
+          "snapshot_path": "sources/snapshots/samuelclay--newsblur-readme.txt",
+          "line_start": 58,
+          "line_end": 58,
+          "upstream_excerpt": "- PostgreSQL for relational data (feeds, subscriptions, accounts)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "samuelclay--newsblur-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/samuelclay/NewsBlur/92b56e896c4ea6046377073204ad2894db9d0912/LICENSE.md",
+          "version_or_commit": "92b56e896c4ea6046377073204ad2894db9d0912",
+          "checked_at": "2026-11-21T21:15:29.683104+08:00",
+          "snapshot_path": "sources/snapshots/samuelclay--newsblur-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "The MIT License\n===============\n\nCopyright (c) 2009 Samuel Clay, NewsBlur <samuel@newsblur.com>.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/samuelclay--newsblur-observation.json"
+    },
+    {
+      "name": "Stringer",
+      "repository": "stringer-rss/stringer",
+      "url": "https://github.com/stringer-rss/stringer",
+      "clone_url": "https://github.com/stringer-rss/stringer.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:30.502290+08:00",
+      "version_or_commit": "8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/README.md",
+          "final_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/README.md",
+          "path": "sources/snapshots/stringer-rss--stringer-readme.txt",
+          "sha256": "36a434118f3b3f16a554d253b9974ccfef1daac578682e48cb2ef0b0c0ccc93d",
+          "http_status": 200,
+          "line_count": 139,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/LICENSE",
+          "path": "sources/snapshots/stringer-rss--stringer-license.txt",
+          "sha256": "c5252657153356c2205de5aff7a5c4988a058349d77f01857060b29c3da9b965",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/stringer-rss/stringer.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "stringer-rss--stringer-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Stringer is a Ruby app based on Rails, PostgreSQL, Hotwire (Turbo and Stimulus) and GoodJob.",
+          "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/README.md",
+          "version_or_commit": "8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4",
+          "checked_at": "2026-11-21T21:15:30.502290+08:00",
+          "snapshot_path": "sources/snapshots/stringer-rss--stringer-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "Stringer is a Ruby app based on Rails, PostgreSQL, Hotwire (Turbo and Stimulus) and GoodJob.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "stringer-rss--stringer-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/LICENSE",
+          "version_or_commit": "8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4",
+          "checked_at": "2026-11-21T21:15:30.502290+08:00",
+          "snapshot_path": "sources/snapshots/stringer-rss--stringer-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "The MIT License (MIT)\n\nCopyright (c) 2013 Matt Swanson\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/stringer-rss--stringer-observation.json"
+    },
+    {
+      "name": "selfoss",
+      "repository": "fossar/selfoss",
+      "url": "https://github.com/fossar/selfoss",
+      "clone_url": "https://github.com/fossar/selfoss.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:32.309465+08:00",
+      "version_or_commit": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+          "final_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+          "path": "sources/snapshots/fossar--selfoss-readme.txt",
+          "sha256": "a06de82fcf7c4dbaf564336bb621cb1045942160b1fe6dba424e8be025b8a463",
+          "http_status": 200,
+          "line_count": 110,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/COPYING",
+          "final_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/COPYING",
+          "path": "sources/snapshots/fossar--selfoss-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/fossar/selfoss.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "fossar--selfoss-axis-1",
+          "field": "decision_axis_1",
+          "statement": "selfoss is a multipurpose RSS reader and feed aggregation web application. It allows you to easily follow updates from different web sites, social networks and other platforms, all in single place. It\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+          "version_or_commit": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+          "checked_at": "2026-11-21T21:15:32.309465+08:00",
+          "snapshot_path": "sources/snapshots/fossar--selfoss-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "selfoss is a multipurpose RSS reader and feed aggregation web application. It allows you to easily follow updates from different web sites, social networks and other platforms, all in single place. It is written in PHP, allowing you to run it basically anywhere.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "fossar--selfoss-axis-2",
+          "field": "decision_axis_2",
+          "statement": "5. Create cronjob or systemd timer for updating feeds and point it to https://yourselfossurl.com/update via wget or curl. You can also execute the cliupdate.php from command line.",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+          "version_or_commit": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+          "checked_at": "2026-11-21T21:15:32.309465+08:00",
+          "snapshot_path": "sources/snapshots/fossar--selfoss-readme.txt",
+          "line_start": 26,
+          "line_end": 26,
+          "upstream_excerpt": "5. Create cronjob or systemd timer for updating feeds and point it to https://yourselfossurl.com/update via wget or curl. You can also execute the `cliupdate.php` from command line.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "fossar--selfoss-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Selfoss supports importing OPML files. Find the OPML export in the old application, it is usually located somewhere in settings. Then visit the page https://yourselfossurl.com/opml and upload it there\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+          "version_or_commit": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+          "checked_at": "2026-11-21T21:15:32.309465+08:00",
+          "snapshot_path": "sources/snapshots/fossar--selfoss-readme.txt",
+          "line_start": 66,
+          "line_end": 66,
+          "upstream_excerpt": "Selfoss supports importing OPML files. Find the OPML export in the old application, it is usually located somewhere in settings. Then visit the page https://yourselfossurl.com/opml and upload it there.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "fossar--selfoss-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/COPYING",
+          "version_or_commit": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+          "checked_at": "2026-11-21T21:15:32.309465+08:00",
+          "snapshot_path": "sources/snapshots/fossar--selfoss-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/fossar--selfoss-observation.json"
+    },
+    {
+      "name": "Yarr",
+      "repository": "nkanaev/yarr",
+      "url": "https://github.com/nkanaev/yarr",
+      "clone_url": "https://github.com/nkanaev/yarr.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:34.172284+08:00",
+      "version_or_commit": "b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+          "final_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+          "path": "sources/snapshots/nkanaev--yarr-readme.txt",
+          "sha256": "3ee780a3e2d1c98d38548259fea434017ee4f94467599dd8c5da223f30f9f42e",
+          "http_status": 200,
+          "line_count": 16,
+          "upstream_filename": "readme.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/license",
+          "final_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/license",
+          "path": "sources/snapshots/nkanaev--yarr-license.txt",
+          "sha256": "d18d9679a81d1644b42e99348c7fea7079c58e5d56def876442ebd3936ea490c",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "license"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/nkanaev/yarr.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nb75d4636119e71b9817fdd4e3e0b9ec267fe2f9b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "nkanaev--yarr-axis-1",
+          "field": "decision_axis_1",
+          "statement": "yarr (yet another rss reader) is a web-based feed aggregator.",
+          "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+          "version_or_commit": "b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b",
+          "checked_at": "2026-11-21T21:15:34.172284+08:00",
+          "snapshot_path": "sources/snapshots/nkanaev--yarr-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "**yarr** (yet another rss reader) is a web-based feed aggregator.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nkanaev--yarr-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Single binary, no dependencies",
+          "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+          "version_or_commit": "b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b",
+          "checked_at": "2026-11-21T21:15:34.172284+08:00",
+          "snapshot_path": "sources/snapshots/nkanaev--yarr-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "* Single binary, no dependencies",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nkanaev--yarr-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/license",
+          "version_or_commit": "b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b",
+          "checked_at": "2026-11-21T21:15:34.172284+08:00",
+          "snapshot_path": "sources/snapshots/nkanaev--yarr-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2020 Nazar Kanaev (nkanaev@live.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/nkanaev--yarr-observation.json"
+    },
+    {
+      "name": "Fusion",
+      "repository": "0x2E/fusion",
+      "url": "https://github.com/0x2E/fusion",
+      "clone_url": "https://github.com/0x2E/fusion.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:35.841962+08:00",
+      "version_or_commit": "c31ade09b481fa877633899e8cf5d4c86a72c4f9",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+          "final_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+          "path": "sources/snapshots/0x2e--fusion-readme.txt",
+          "sha256": "6adbb0e5a13fc6d108bec6e8b9e5616623fca08bbe67be3892be06381feb9b5d",
+          "http_status": 200,
+          "line_count": 143,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/LICENSE",
+          "path": "sources/snapshots/0x2e--fusion-license.txt",
+          "sha256": "717c5420ecfc9a254703fe9cdf665797ca90584e2e002cbfdbe00a5781162c78",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/0x2E/fusion.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nc31ade09b481fa877633899e8cf5d4c86a72c4f9\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "0x2e--fusion-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Self-hosting friendly: single binary or Docker deployment",
+          "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+          "version_or_commit": "c31ade09b481fa877633899e8cf5d4c86a72c4f9",
+          "checked_at": "2026-11-21T21:15:35.841962+08:00",
+          "snapshot_path": "sources/snapshots/0x2e--fusion-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "- Self-hosting friendly: single binary or Docker deployment",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "0x2e--fusion-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Fever API compatibility for third-party clients (Reeder, Unread, FeedMe, etc.)",
+          "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/README.md",
+          "version_or_commit": "c31ade09b481fa877633899e8cf5d4c86a72c4f9",
+          "checked_at": "2026-11-21T21:15:35.841962+08:00",
+          "snapshot_path": "sources/snapshots/0x2e--fusion-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "- Fever API compatibility for third-party clients (Reeder, Unread, FeedMe, etc.)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "0x2e--fusion-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/0x2E/fusion/c31ade09b481fa877633899e8cf5d4c86a72c4f9/LICENSE",
+          "version_or_commit": "c31ade09b481fa877633899e8cf5d4c86a72c4f9",
+          "checked_at": "2026-11-21T21:15:35.841962+08:00",
+          "snapshot_path": "sources/snapshots/0x2e--fusion-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2024 Rook1e\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/0x2e--fusion-observation.json"
+    },
+    {
+      "name": "RSS",
+      "repository": "ssddanbrown/rss",
+      "url": "https://github.com/ssddanbrown/rss",
+      "clone_url": "https://github.com/ssddanbrown/rss.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:37.697488+08:00",
+      "version_or_commit": "b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+          "final_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+          "path": "sources/snapshots/ssddanbrown--rss-readme.txt",
+          "sha256": "3283d5d1f8c35a0351cdd48fcf2a13ee10673e46b437b4c5a80e95280386b91a",
+          "http_status": 200,
+          "line_count": 277,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/LICENSE",
+          "path": "sources/snapshots/ssddanbrown--rss-license.txt",
+          "sha256": "249ba57d5383f89e9ecc5114ee7442d8e73e77b3449a8a11cbfb248a00acb934",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/ssddanbrown/rss.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nb6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "ssddanbrown--rss-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- No user system or user management system.",
+          "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+          "version_or_commit": "b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc",
+          "checked_at": "2026-11-21T21:15:37.697488+08:00",
+          "snapshot_path": "sources/snapshots/ssddanbrown--rss-readme.txt",
+          "line_start": 33,
+          "line_end": 33,
+          "upstream_excerpt": "- No user system or user management system.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ssddanbrown--rss-axis-2",
+          "field": "decision_axis_2",
+          "statement": "You'd also need a process to run the laravel queue system in addition to a cron job to run the schedule.",
+          "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/README.md",
+          "version_or_commit": "b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc",
+          "checked_at": "2026-11-21T21:15:37.697488+08:00",
+          "snapshot_path": "sources/snapshots/ssddanbrown--rss-readme.txt",
+          "line_start": 226,
+          "line_end": 226,
+          "upstream_excerpt": "You'd also need a process to run the laravel queue system in addition to a cron job to run the schedule.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ssddanbrown--rss-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/ssddanbrown/rss/b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc/LICENSE",
+          "version_or_commit": "b6ef210cb62913a58d6fc6b5aefbe02ec4f6ddfc",
+          "checked_at": "2026-11-21T21:15:37.697488+08:00",
+          "snapshot_path": "sources/snapshots/ssddanbrown--rss-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2022 Dan Brown\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/ssddanbrown--rss-observation.json"
+    },
+    {
+      "name": "Feedbin",
+      "repository": "feedbin/feedbin",
+      "url": "https://github.com/feedbin/feedbin",
+      "clone_url": "https://github.com/feedbin/feedbin.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:38.170599+08:00",
+      "version_or_commit": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+          "final_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+          "path": "sources/snapshots/feedbin--feedbin-readme.txt",
+          "sha256": "b1d820987b7bbd900fcdb4a2aeba828542ab1658d4600a286707ecc48fcaa4ba",
+          "http_status": 200,
+          "line_count": 76,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/LICENSE.md",
+          "path": "sources/snapshots/feedbin--feedbin-license.txt",
+          "sha256": "23b56dd770884102b98cc4f4ffcedfdafd994140337eb414d18d37e875e25861",
+          "http_status": 200,
+          "line_count": 10,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/feedbin/feedbin.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ne976b6043219f7ebcdf3f35d148c4cb6f14d9bde\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "feedbin--feedbin-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Feedbin is a simple, fast and nice looking RSS reader.",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+          "version_or_commit": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+          "checked_at": "2026-11-21T21:15:38.170599+08:00",
+          "snapshot_path": "sources/snapshots/feedbin--feedbin-readme.txt",
+          "line_start": 4,
+          "line_end": 4,
+          "upstream_excerpt": "Feedbin is a simple, fast and nice looking RSS reader.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "feedbin--feedbin-axis-2",
+          "field": "decision_axis_2",
+          "statement": "The main Feedbin project is a Ruby on Rails application. In addition to the main project there are several other services that provide additional functionality. None of these services are required to \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+          "version_or_commit": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+          "checked_at": "2026-11-21T21:15:38.170599+08:00",
+          "snapshot_path": "sources/snapshots/feedbin--feedbin-readme.txt",
+          "line_start": 30,
+          "line_end": 30,
+          "upstream_excerpt": "The main Feedbin project is a [Ruby on Rails](https://rubyonrails.org/) application. In addition to the main project there are several other services that provide additional functionality. None of these services are required to get Feedbin running locally.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "feedbin--feedbin-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Feedbin is a web based RSS reader. It provides a user interface for reading and managing feeds as well as a REST-like API for clients to connect to.",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+          "version_or_commit": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+          "checked_at": "2026-11-21T21:15:38.170599+08:00",
+          "snapshot_path": "sources/snapshots/feedbin--feedbin-readme.txt",
+          "line_start": 18,
+          "line_end": 18,
+          "upstream_excerpt": "Feedbin is a web based RSS reader. It provides a user interface for reading and managing feeds as well as a [REST-like API](https://github.com/feedbin/feedbin-api) for clients to connect to.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "feedbin--feedbin-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/LICENSE.md",
+          "version_or_commit": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+          "checked_at": "2026-11-21T21:15:38.170599+08:00",
+          "snapshot_path": "sources/snapshots/feedbin--feedbin-license.txt",
+          "line_start": 6,
+          "line_end": 6,
+          "upstream_excerpt": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/feedbin--feedbin-observation.json"
+    },
+    {
+      "name": "Leed",
+      "repository": "LeedRSS/Leed",
+      "url": "https://github.com/LeedRSS/Leed",
+      "clone_url": "https://github.com/LeedRSS/Leed.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:39.969593+08:00",
+      "version_or_commit": "a50fd997e40189989f70b40ff91fd6b788409188",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/README.md",
+          "final_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/README.md",
+          "path": "sources/snapshots/leedrss--leed-readme.txt",
+          "sha256": "d9672c722347a640c0e8328f6b69b44a9b19eeb14cd1a7bafc1018aa4fdc3b8e",
+          "http_status": 200,
+          "line_count": 204,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/License-AGPL-3.0.txt",
+          "final_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/License-AGPL-3.0.txt",
+          "path": "sources/snapshots/leedrss--leed-License-AGPL-3.0.txt.txt",
+          "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "License-AGPL-3.0.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/LeedRSS/Leed.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\na50fd997e40189989f70b40ff91fd6b788409188\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "leedrss--leed-axis-2",
+          "field": "decision_axis_2",
+          "statement": "All tasks are performed in the background thanks to a scheduled task (cron), so the user does not experience delays due to the recovery and processing of each of the monitored feed.",
+          "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/README.md",
+          "version_or_commit": "a50fd997e40189989f70b40ff91fd6b788409188",
+          "checked_at": "2026-11-21T21:15:39.969593+08:00",
+          "snapshot_path": "sources/snapshots/leedrss--leed-readme.txt",
+          "line_start": 87,
+          "line_end": 87,
+          "upstream_excerpt": "All tasks are performed in the background thanks to a scheduled task (cron), so the user does not experience delays due to the recovery and processing of each of the monitored feed.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "leedrss--leed-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/License-AGPL-3.0.txt",
+          "version_or_commit": "a50fd997e40189989f70b40ff91fd6b788409188",
+          "checked_at": "2026-11-21T21:15:39.969593+08:00",
+          "snapshot_path": "sources/snapshots/leedrss--leed-License-AGPL-3.0.txt.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/leedrss--leed-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.185538+08:00",
+  "review_round": "narrow_remediation"
+}

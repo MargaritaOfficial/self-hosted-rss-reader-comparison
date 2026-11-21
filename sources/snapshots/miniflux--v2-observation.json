@@ -1,0 +1,38 @@
+{
+  "repository": "miniflux/v2",
+  "checked_at": "2026-11-21T21:15:24.540504+08:00",
+  "revision": "eea1ec706fcd40687032804d197bb67cb0d96ef4",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/miniflux/v2.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\neea1ec706fcd40687032804d197bb67cb0d96ef4\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+      "final_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/README.md",
+      "path": "sources/snapshots/miniflux--v2-readme.txt",
+      "sha256": "2a18e492d96193f6bb1122bd493944e07987920a06005a48651c304e310a4a48",
+      "http_status": 200,
+      "line_count": 148,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/miniflux/v2/eea1ec706fcd40687032804d197bb67cb0d96ef4/LICENSE",
+      "path": "sources/snapshots/miniflux--v2-license.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "http_status": 200,
+      "line_count": 177,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

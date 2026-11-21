@@ -1,0 +1,38 @@
+{
+  "repository": "feedbin/feedbin",
+  "checked_at": "2026-11-21T21:15:38.170599+08:00",
+  "revision": "e976b6043219f7ebcdf3f35d148c4cb6f14d9bde",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/feedbin/feedbin.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ne976b6043219f7ebcdf3f35d148c4cb6f14d9bde\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+      "final_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/README.md",
+      "path": "sources/snapshots/feedbin--feedbin-readme.txt",
+      "sha256": "b1d820987b7bbd900fcdb4a2aeba828542ab1658d4600a286707ecc48fcaa4ba",
+      "http_status": 200,
+      "line_count": 76,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/feedbin/feedbin/e976b6043219f7ebcdf3f35d148c4cb6f14d9bde/LICENSE.md",
+      "path": "sources/snapshots/feedbin--feedbin-license.txt",
+      "sha256": "23b56dd770884102b98cc4f4ffcedfdafd994140337eb414d18d37e875e25861",
+      "http_status": 200,
+      "line_count": 10,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "nkanaev/yarr",
+  "checked_at": "2026-11-21T21:15:34.172284+08:00",
+  "revision": "b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/nkanaev/yarr.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nb75d4636119e71b9817fdd4e3e0b9ec267fe2f9b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+      "final_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/readme.md",
+      "path": "sources/snapshots/nkanaev--yarr-readme.txt",
+      "sha256": "3ee780a3e2d1c98d38548259fea434017ee4f94467599dd8c5da223f30f9f42e",
+      "http_status": 200,
+      "line_count": 16,
+      "upstream_filename": "readme.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/license",
+      "final_url": "https://raw.githubusercontent.com/nkanaev/yarr/b75d4636119e71b9817fdd4e3e0b9ec267fe2f9b/license",
+      "path": "sources/snapshots/nkanaev--yarr-license.txt",
+      "sha256": "d18d9679a81d1644b42e99348c7fea7079c58e5d56def876442ebd3936ea490c",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "license"
+    }
+  ],
+  "failures": []
+}

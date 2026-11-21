@@ -1,0 +1,38 @@
+{
+  "repository": "LeedRSS/Leed",
+  "checked_at": "2026-11-21T21:15:39.969593+08:00",
+  "revision": "a50fd997e40189989f70b40ff91fd6b788409188",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/LeedRSS/Leed.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\na50fd997e40189989f70b40ff91fd6b788409188\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/README.md",
+      "final_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/README.md",
+      "path": "sources/snapshots/leedrss--leed-readme.txt",
+      "sha256": "d9672c722347a640c0e8328f6b69b44a9b19eeb14cd1a7bafc1018aa4fdc3b8e",
+      "http_status": 200,
+      "line_count": 204,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/License-AGPL-3.0.txt",
+      "final_url": "https://raw.githubusercontent.com/LeedRSS/Leed/a50fd997e40189989f70b40ff91fd6b788409188/License-AGPL-3.0.txt",
+      "path": "sources/snapshots/leedrss--leed-License-AGPL-3.0.txt.txt",
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "License-AGPL-3.0.txt"
+    }
+  ],
+  "failures": []
+}

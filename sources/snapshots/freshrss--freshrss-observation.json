@@ -1,0 +1,38 @@
+{
+  "repository": "FreshRSS/FreshRSS",
+  "checked_at": "2026-11-21T21:15:24.680572+08:00",
+  "revision": "71cda6bfe2301e0da789dc4141415b1090cfc0bd",
+  "branch": "edge",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/FreshRSS/FreshRSS.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/edge\tHEAD\n71cda6bfe2301e0da789dc4141415b1090cfc0bd\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+      "final_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/README.md",
+      "path": "sources/snapshots/freshrss--freshrss-readme.txt",
+      "sha256": "31fe6e06511f7ed6840950427503bdbecc3eee680252ba9d4d4cfd252b2e7f77",
+      "http_status": 200,
+      "line_count": 226,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/71cda6bfe2301e0da789dc4141415b1090cfc0bd/LICENSE.txt",
+      "path": "sources/snapshots/freshrss--freshrss-license.txt",
+      "sha256": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
+      "http_status": 200,
+      "line_count": 662,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

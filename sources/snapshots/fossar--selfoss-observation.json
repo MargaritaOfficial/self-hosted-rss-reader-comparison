@@ -1,0 +1,38 @@
+{
+  "repository": "fossar/selfoss",
+  "checked_at": "2026-11-21T21:15:32.309465+08:00",
+  "revision": "4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/fossar/selfoss.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+      "final_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/README.md",
+      "path": "sources/snapshots/fossar--selfoss-readme.txt",
+      "sha256": "a06de82fcf7c4dbaf564336bb621cb1045942160b1fe6dba424e8be025b8a463",
+      "http_status": 200,
+      "line_count": 110,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/COPYING",
+      "final_url": "https://raw.githubusercontent.com/fossar/selfoss/4f97e67e1dcab2c2e7d63a5bd12ab6fbaca6a21d/COPYING",
+      "path": "sources/snapshots/fossar--selfoss-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

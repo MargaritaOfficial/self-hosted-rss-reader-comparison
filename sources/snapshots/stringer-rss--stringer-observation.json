@@ -1,0 +1,38 @@
+{
+  "repository": "stringer-rss/stringer",
+  "checked_at": "2026-11-21T21:15:30.502290+08:00",
+  "revision": "8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/stringer-rss/stringer.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/README.md",
+      "final_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/README.md",
+      "path": "sources/snapshots/stringer-rss--stringer-readme.txt",
+      "sha256": "36a434118f3b3f16a554d253b9974ccfef1daac578682e48cb2ef0b0c0ccc93d",
+      "http_status": 200,
+      "line_count": 139,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/stringer-rss/stringer/8a4c90e2f1967028c3b5f3dca7fa3c6d356d25c4/LICENSE",
+      "path": "sources/snapshots/stringer-rss--stringer-license.txt",
+      "sha256": "c5252657153356c2205de5aff7a5c4988a058349d77f01857060b29c3da9b965",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

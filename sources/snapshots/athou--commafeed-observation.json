@@ -1,0 +1,38 @@
+{
+  "repository": "Athou/commafeed",
+  "checked_at": "2026-11-21T21:15:28.219640+08:00",
+  "revision": "4a8ffe250147fbcdaded433bdf3e54181ab71c25",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Athou/commafeed.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n4a8ffe250147fbcdaded433bdf3e54181ab71c25\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+      "final_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/README.md",
+      "path": "sources/snapshots/athou--commafeed-readme.txt",
+      "sha256": "a347114a8eaf760f6963f68e09700cdd58e932fe397d96a70835ec0f9f4e40ec",
+      "http_status": 200,
+      "line_count": 215,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Athou/commafeed/4a8ffe250147fbcdaded433bdf3e54181ab71c25/LICENSE",
+      "path": "sources/snapshots/athou--commafeed-license.txt",
+      "sha256": "2429b2d3f506acc02e36d6d2bfc6778a1652a5d54dae368fddff933fc8e8aeae",
+      "http_status": 200,
+      "line_count": 31,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

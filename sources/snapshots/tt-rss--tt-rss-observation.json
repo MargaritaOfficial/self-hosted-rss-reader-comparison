@@ -1,0 +1,38 @@
+{
+  "repository": "tt-rss/tt-rss",
+  "checked_at": "2026-11-21T21:15:24.787630+08:00",
+  "revision": "bdd57ea86ff6beab69be2fc883d202181a6bd18a",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/tt-rss/tt-rss.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nbdd57ea86ff6beab69be2fc883d202181a6bd18a\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+      "final_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/README.md",
+      "path": "sources/snapshots/tt-rss--tt-rss-readme.txt",
+      "sha256": "d4d139eb024d29cbb663290c8ba2cdf4e901767bcde62a36566515833cac5028",
+      "http_status": 200,
+      "line_count": 56,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/COPYING",
+      "final_url": "https://raw.githubusercontent.com/tt-rss/tt-rss/bdd57ea86ff6beab69be2fc883d202181a6bd18a/COPYING",
+      "path": "sources/snapshots/tt-rss--tt-rss-license.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}
