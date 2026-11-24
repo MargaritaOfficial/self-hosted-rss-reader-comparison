@@ -1,8 +1,9 @@
 # Self-Hosted RSS Reader Comparison
 
-> **Decision:** Match update scheduling, filtering, user separation, client API, retention, and operational weight to the reading workflow before importing an OPML file.
 
-**For:** News-heavy users, teams, and minimalists replacing a hosted feed reader.  
+> **Decision:** Use this comparison when update scheduling, filtering, user separation, client APIs, retention, and operating weight drive the RSS choice; skip it if importing OPML is your only requirement.
+>
+> **For:** news-heavy readers, teams, and minimalists replacing a hosted feed reader  ·  **Not for:** users who want a zero-operations hosted service or a popularity ranking
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ Export OPML, starred items, tags, and filter rules separately because OPML carri
 
 Feed consumption and update operations, not audience lists, newsletter authoring or mail delivery.
 
+## Adjacent guides
+
+- [self-hosted-read-it-later-landscape](https://github.com/rayrooto/self-hosted-read-it-later-landscape) — Use it when feed discovery is solved but durable capture and reading state are the next decision.
+- [open-source-document-workflow-index](https://github.com/mckee19/open-source-document-workflow-index) — Use it when saved feed items become governed documents that need OCR, retrieval, or retention.
+- [self-hosted-notification-routing-index](https://github.com/brownrasr/self-hosted-notification-routing-index) — Use it when selected feed events need controlled fan-out to phones, chat, email, or webhooks.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
