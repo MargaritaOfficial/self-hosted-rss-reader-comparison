@@ -1,6 +1,5 @@
 # Self-Hosted RSS Reader Comparison
 
-
 > **Decision:** Use this comparison when update scheduling, filtering, user separation, client APIs, retention, and operating weight drive the RSS choice; skip it if importing OPML is your only requirement.
 >
 > **For:** news-heavy readers, teams, and minimalists replacing a hosted feed reader  ·  **Not for:** users who want a zero-operations hosted service or a popularity ranking
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the feed operations ledger](assets/rss-reader-compatibility.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Small, opinionated, multi-user server: Miniflux.
 - Broad web-reader compatibility and extensions: FreshRSS.
@@ -24,12 +22,10 @@ OPML transfers feed subscriptions, not necessarily stars, filters, read state or
 
 ## Reader compatibility map
 
-
 - **Compact readers** — Miniflux, Stringer, Yarr, Fusion, and RSS trade ecosystem breadth for a smaller operating surface.
 - **General web readers** — FreshRSS, CommaFeed, selfoss, and Leed cover familiar multi-feed reading with different databases and extension models.
 - **Power-user filtering** — Tiny Tiny RSS emphasizes filters and plugins; verify fork provenance and current mobile/API compatibility.
 - **Service-scale applications** — NewsBlur and Feedbin provide rich product features but bring multi-service operations; Feedbin explicitly warns about production self-hosting burden.
-
 
 ## Feed operations ledger
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Assemble the minimal stack
 
-
 Export OPML, starred items, tags, and filter rules separately because OPML carries only subscription structure. Run old and new update engines in parallel for a week, compare unread counts and duplicate handling, then test mobile API clients before making the old database read-only.
-
 
 ## Adoption notes by project
 
